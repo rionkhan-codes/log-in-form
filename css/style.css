@@ -1,0 +1,59 @@
+/*  ----------- font link start --------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/*  ----------- font link end --------- */
+body{
+    background: #E8EDF2;
+}
+/*  ---------- common css part start ---------- */
+
+
+/*  ---------- common css part start ---------- */
+/* --------- variable part start -------- */
+:root{
+    --font_poppins:"Poppins", sans-serif;
+    --primarycolor:#07070C;
+}
+/* --------- variable part start -------- */
+/* --------- log in part start -------- */
+/* #logIn{
+    padding: 40;
+    background: #fff;
+} */
+.logInForm{
+   margin: 0 auto;
+    padding: 40;
+    background: #fff;
+    width: 440px;
+}
+.logInFormText{
+    text-align: center;
+}
+.account {
+    width: 232px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin: 0 auto;
+}
+.accountImg{
+    width: 64px;
+    margin: 0 auto;
+}
+.account h1{
+    font-size: 24px;
+    font-family: var(--font_poppins);
+    font-weight: 700;
+    color: #07070C;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    letter-spacing: 0.11px;
+}
+.account p{
+    font-size: 14px;
+    font-family: var(--font_poppins);
+    font-weight: 400;
+    color: #7E7E8F;
+    text-align: center;
+}
+/* --------- log in part end -------- */
